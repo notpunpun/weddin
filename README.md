@@ -1,12 +1,12 @@
-# 💌 Undangan Pernikahan — Danial & Izzati
+# 💌 Undangan Pernikahan 
 
-Website undangan pernikahan digital, dibina berdasarkan template [`undangan-4.x`](https://github.com/dewanakl/undangan), dengan tambahan custom RSVP & Buku Tetamu menggunakan Firebase Realtime Database.
+2nd version of wtv ts is 
 
 🔗 **Firebase:** [happycuddin](https://console.firebase.google.com/u/0/project/happycuddin-567a9/database/happycuddin-567a9-default-rtdb/data/~2Fwishlist)
 
 ---
 
-## ✨ Ciri-ciri
+## ✨ Details
 
 - 🎨 Tema light/dark dengan toggle
 - 🎵 Background music dengan fade-in
@@ -64,9 +64,9 @@ Buka browser di `http://127.0.0.1:8080`.
 
 ---
 
-## 🔄 Update Code (PC Lain / Sync)
+## 🔄 Update Code 
 
-Kalau dah pernah clone sebelum ni, just:
+to install:
 
 ```bash
 git pull
@@ -76,7 +76,7 @@ npm run dev
 
 ---
 
-## 📁 Struktur Penting
+## 📁 Structure
 
 ```
 weddin/
@@ -113,7 +113,7 @@ Konfigurasi Firebase ada terus dalam `index.html` (inline script). Struktur data
 }
 ```
 
-> ⚠️ **Note:** Pastikan Firebase Realtime Database Rules dah di-set dengan betul (read/write permissions) sebelum live, terutamanya untuk elak abuse pada RSVP/like endpoint.
+> ⚠️ **Note:** make sure Firebase Realtime Database Rules dah di-set dengan betul (read/write permissions) sebelum live, terutamanya untuk elak abuse pada RSVP/like endpoint.
 
 ---
 
